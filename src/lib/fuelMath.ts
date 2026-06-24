@@ -1,11 +1,10 @@
 /**
  * Jet Fuel Conversion Constants
  * Density: 1 Litre = 0.8 KG (Standard Jet A-1)
- * Volume: 1 US Gallon = 3.78541 Litres
- * Derived: 1 Litre = 0.264172 USG
+ * Volume: 1 US Gallon = 2.96 KG
  */
 export const KG_PER_L = 0.8;
-export const USG_PER_L = 0.264172;
+export const USG_PER_L = 0.8/2.96;
 export type FuelUnit = 'L' | 'KG' | 'USG';
 export interface VolumeOutputs {
   L: string;
