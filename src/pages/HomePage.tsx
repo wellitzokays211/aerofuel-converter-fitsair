@@ -38,10 +38,10 @@ export function HomePage() {
               Aviation Tools
             </div>
             <h1 className="text-4xl md:text-6xl font-display font-extrabold tracking-tight text-foreground">
-              AeroFuel <span className="text-primary">Converter</span>
+              Aero Fuel <span className="text-primary">Converter</span>
             </h1>
             <p className="text-lg md:text-xl text-muted-foreground text-pretty max-w-2xl mx-auto">
-              Professional-grade jet fuel volume and price conversions with instant accuracy.
+              Jet fuel volume and price converter - FitsAir Strategy
             </p>
           </header>
           {/* Calculator Grid */}
